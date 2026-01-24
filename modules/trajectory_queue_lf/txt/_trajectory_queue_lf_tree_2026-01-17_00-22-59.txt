@@ -1,0 +1,7 @@
+|-- trajectory_queue_lf/
+    |-- CMakeLists.txt
+|-- docs/
+|-- src/
+    |-- TrajectoryQueue.h
+|-- tests/
+    |-- gtest_trajectory_queue_main.cpp
