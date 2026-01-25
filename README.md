@@ -1,8 +1,7 @@
-# RDT-core-next
+# HexaMotion: Industrial Robot Control System
 ![RDT-HMI](image.png)
 ## Soon
 
-# HexaMotion: Industrial Robot Control System
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/hexakinetica/hexamotion/actions)
 [![Language](https://img.shields.io/badge/C%2B%2B-20-blue.svg)](https://isocpp.org/)
