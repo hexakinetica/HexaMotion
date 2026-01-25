@@ -161,5 +161,3 @@ This software is a **Technical Demonstration**. While it implements industrial-g
 
 #### License
 This project is licensed under the **GNU Affero General Public License v3 (AGPLv3)** - see the LICENSE file for details.
-
---- END OF FILE README.md ---
