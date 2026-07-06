@@ -1,0 +1,9 @@
+﻿{
+    "rdt_server_port":  30002,
+    "realtime_remote_ip":  "127.0.0.1",
+    "realtime_remote_port":  30003,
+    "realtime_local_port":  30004,
+    "mks_ip":  "127.0.0.1",
+    "mks_port":  30110,
+    "programs_dir": "programs"
+}

@@ -1,0 +1,59 @@
+{
+    "formatVersion": 2,
+    "program": {
+        "name": "SyncedProgram",
+        "steps": [
+            {
+                "base_id": 0,
+                "blending_radius_mm": 0.0,
+                "comment": "Point 1",
+                "id": 0,
+                "joint_target": [
+                    36.80000000000001,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "speed_ratio": 100.0,
+                "tool_id": 0,
+                "type": "MoveJ"
+            },
+            {
+                "base_id": 0,
+                "blending_radius_mm": 0.0,
+                "comment": "Point 2",
+                "id": 1,
+                "joint_target": [
+                    36.80000000000001,
+                    0.0,
+                    -20.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "speed_ratio": 100.0,
+                "tool_id": 0,
+                "type": "MoveJ"
+            },
+            {
+                "base_id": 0,
+                "blending_radius_mm": 0.0,
+                "comment": "Point 3",
+                "id": 2,
+                "joint_target": [
+                    6.800000000000015,
+                    0.0,
+                    -20.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "speed_ratio": 100.0,
+                "tool_id": 0,
+                "type": "MoveJ"
+            }
+        ]
+    }
+}

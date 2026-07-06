@@ -1,0 +1,288 @@
+{
+    "activeBaseId": 0,
+    "activeToolId": 0,
+    "definition": {
+        "axisLimits": [
+            [
+                -170.0,
+                170.0
+            ],
+            [
+                -170.0,
+                170.0
+            ],
+            [
+                -170.0,
+                170.0
+            ],
+            [
+                -170.0,
+                170.0
+            ],
+            [
+                -170.0,
+                170.0
+            ],
+            [
+                -170.0,
+                170.0
+            ]
+        ]
+    },
+    "formatVersion": 1,
+    "frames": {
+        "bases": [
+            {
+                "id": 0,
+                "name": "World",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 1,
+                "name": "Empty Base 1",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 2,
+                "name": "Empty Base 2",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 3,
+                "name": "Empty Base 3",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 4,
+                "name": "Empty Base 4",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 5,
+                "name": "Empty Base 5",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 6,
+                "name": "Empty Base 6",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 7,
+                "name": "Empty Base 7",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 8,
+                "name": "Empty Base 8",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 9,
+                "name": "Empty Base 9",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ],
+        "tools": [
+            {
+                "id": 0,
+                "name": "Flange",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 1,
+                "name": "Default Gripper",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 150.0
+                }
+            },
+            {
+                "id": 2,
+                "name": "Empty Tool 2",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 3,
+                "name": "Empty Tool 3",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 4,
+                "name": "Empty Tool 4",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 5,
+                "name": "Empty Tool 5",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 6,
+                "name": "Empty Tool 6",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 7,
+                "name": "Empty Tool 7",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 8,
+                "name": "Empty Tool 8",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            },
+            {
+                "id": 9,
+                "name": "Empty Tool 9",
+                "offset": {
+                    "rx": 0.0,
+                    "ry": 0.0,
+                    "rz": 0.0,
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                }
+            }
+        ]
+    },
+    "ipAddress": "127.0.0.1",
+    "modelRootRxDeg": 0.0,
+    "modelRootRyDeg": 0.0,
+    "modelRootRzDeg": 0.0,
+    "modelRootX": 0.0,
+    "modelRootY": 0.0,
+    "modelRootZ": 0.0,
+    "realtimeBackend": "sim",
+    "urdfPath": "D:/2.Github/HexaKinetica/HexaMotion-SDK/robots/HexaArmMedium_Light_GLB/urdf/HexaArmMedium_Light.SLDASM.urdf"
+}

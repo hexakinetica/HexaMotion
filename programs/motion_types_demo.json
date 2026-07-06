@@ -1,0 +1,423 @@
+{
+ "formatVersion": 2,
+ "program": {
+  "name": "MotionTypesDemo",
+  "steps": [
+   {
+    "id": 0,
+    "type": "Comment",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "=== MOTION TYPES DEMO: serpentine zigzag, 50 mm layers ==="
+   },
+   {
+    "id": 1,
+    "type": "Comment",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "PASS 1 (top +75mm): PTP - joint motion, curved TCP path"
+   },
+   {
+    "id": 2,
+    "type": "MoveJ",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "PTP P1",
+    "joint_target": [
+     -13.933,
+     -36.997,
+     -29.448,
+     0.0,
+     7.55,
+     13.933
+    ],
+    "speed_ratio": 40.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 3,
+    "type": "MoveJ",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "PTP P2",
+    "joint_target": [
+     16.167,
+     -23.576,
+     -9.406,
+     0.0,
+     14.17,
+     -16.167
+    ],
+    "speed_ratio": 40.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 4,
+    "type": "MoveJ",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "PTP P3",
+    "joint_target": [
+     -19.088,
+     -12.267,
+     5.38,
+     -0.0,
+     17.647,
+     19.088
+    ],
+    "speed_ratio": 40.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 5,
+    "type": "MoveJ",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "PTP P4",
+    "joint_target": [
+     23.462,
+     -0.001,
+     18.972,
+     0.0,
+     18.973,
+     -23.462
+    ],
+    "speed_ratio": 40.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 6,
+    "type": "MoveJ",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "PTP P5",
+    "joint_target": [
+     -29.735,
+     11.172,
+     29.044,
+     -0.0,
+     17.872,
+     29.735
+    ],
+    "speed_ratio": 40.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 7,
+    "type": "MoveJ",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "PTP P6",
+    "joint_target": [
+     40.889,
+     24.537,
+     38.319,
+     0.0,
+     13.782,
+     -40.889
+    ],
+    "speed_ratio": 40.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 8,
+    "type": "WaitTime",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "WAIT 0.7s",
+    "wait_duration_s": 0.7
+   },
+   {
+    "id": 9,
+    "type": "Comment",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "PASS 2 (+25mm): LIN - straight lines, REVERSE direction"
+   },
+   {
+    "id": 10,
+    "type": "MoveL",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "LAYER DOWN",
+    "cart_target": {
+     "x": -122.759,
+     "y": 101.0,
+     "z": 256.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    },
+    "speed_ratio": 60.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 11,
+    "type": "MoveL",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "LIN P5",
+    "cart_target": {
+     "x": -182.759,
+     "y": -109.0,
+     "z": 256.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    },
+    "speed_ratio": 60.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 12,
+    "type": "MoveL",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "LIN P4",
+    "cart_target": {
+     "x": -242.759,
+     "y": 101.0,
+     "z": 256.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    },
+    "speed_ratio": 60.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 13,
+    "type": "MoveL",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "LIN P3",
+    "cart_target": {
+     "x": -302.759,
+     "y": -109.0,
+     "z": 256.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    },
+    "speed_ratio": 60.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 14,
+    "type": "MoveL",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "LIN P2",
+    "cart_target": {
+     "x": -362.759,
+     "y": 101.0,
+     "z": 256.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    },
+    "speed_ratio": 60.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 15,
+    "type": "MoveL",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "LIN P1",
+    "cart_target": {
+     "x": -422.759,
+     "y": -109.0,
+     "z": 256.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    },
+    "speed_ratio": 60.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 16,
+    "type": "WaitTime",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "WAIT 0.7s",
+    "wait_duration_s": 0.7
+   },
+   {
+    "id": 17,
+    "type": "Comment",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "PASS 3 (-25mm): CIRC - one arc through a via point"
+   },
+   {
+    "id": 18,
+    "type": "MoveL",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "LAYER DOWN",
+    "cart_target": {
+     "x": -422.759,
+     "y": -109.0,
+     "z": 206.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    },
+    "speed_ratio": 60.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 19,
+    "type": "MoveC",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "CIRC P1->P6",
+    "cart_target": {
+     "x": -122.759,
+     "y": 101.0,
+     "z": 206.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    },
+    "speed_ratio": 45.0,
+    "blending_radius_mm": 0.0,
+    "cart_via": {
+     "x": -298.565,
+     "y": 32.865,
+     "z": 206.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    }
+   },
+   {
+    "id": 20,
+    "type": "WaitTime",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "WAIT 0.7s",
+    "wait_duration_s": 0.7
+   },
+   {
+    "id": 21,
+    "type": "Comment",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "PASS 4 (bottom -75mm): SPLINE - smooth curve, REVERSE direction"
+   },
+   {
+    "id": 22,
+    "type": "MoveL",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "LAYER DOWN",
+    "cart_target": {
+     "x": -122.759,
+     "y": 101.0,
+     "z": 156.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    },
+    "speed_ratio": 60.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 23,
+    "type": "MoveS",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "SPL P5",
+    "cart_target": {
+     "x": -182.759,
+     "y": -109.0,
+     "z": 156.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    },
+    "speed_ratio": 60.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 24,
+    "type": "MoveS",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "SPL P4",
+    "cart_target": {
+     "x": -242.759,
+     "y": 101.0,
+     "z": 156.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    },
+    "speed_ratio": 60.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 25,
+    "type": "MoveS",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "SPL P3",
+    "cart_target": {
+     "x": -302.759,
+     "y": -109.0,
+     "z": 156.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    },
+    "speed_ratio": 60.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 26,
+    "type": "MoveS",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "SPL P2",
+    "cart_target": {
+     "x": -362.759,
+     "y": 101.0,
+     "z": 156.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    },
+    "speed_ratio": 60.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 27,
+    "type": "MoveS",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "SPL P1",
+    "cart_target": {
+     "x": -422.759,
+     "y": -109.0,
+     "z": 156.617,
+     "rx": 0.0,
+     "ry": -0.0,
+     "rz": 90.0
+    },
+    "speed_ratio": 60.0,
+    "blending_radius_mm": 0.0
+   },
+   {
+    "id": 28,
+    "type": "WaitTime",
+    "tool_id": 0,
+    "base_id": 0,
+    "comment": "WAIT 0.7s",
+    "wait_duration_s": 0.7
+   }
+  ]
+ }
+}
