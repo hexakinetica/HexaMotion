@@ -1,0 +1,9 @@
+[INFO ] HexaCore  --- Starting HexaCore Robot Controller v0.1.13 ---
+[INFO ] HexaCore  Using config file: .../configs/hexacore_config.json
+[INFO ] HexaCore  Kinematic model loaded from URDF: .../HexaArm_Mini_Nema_Assem.SLDASM5.urdf
+[INFO ] HexaCore  Robot limits loaded from URDF.
+[INFO ] HexaCore  Configured Realtime MKS TCP Driver: 127.0.0.1:30110
+[INFO ] HexaCore  RDT listen: 0.0.0.0:30002
+[INFO ] HexaCore  Startup mode: INTERNAL SIMULATION
+[INFO ] HexaCore  Controller is running. Press Ctrl+C to terminate.
+[INFO ] HexaCore  Listening on port 30002 for HexaStudio connections.
